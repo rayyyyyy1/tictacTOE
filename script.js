@@ -80,6 +80,9 @@ const gameController =(() => {
         })
    }
    function doit() {document.querySelector('.reset-game').addEventListener('click',resetBoard)}
+   function submitbutton(){
+      
+        }
    function createPlayer(){
       
    }
