@@ -80,7 +80,9 @@ const gameController =(() => {
         })
    }
    function doit() {document.querySelector('.reset-game').addEventListener('click',resetBoard)}
-
+   function createPlayer(){
+      
+   }
    function resetBoard(){
        buttons.forEach(button =>{
         button.textContent='';
